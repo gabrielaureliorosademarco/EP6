@@ -1,0 +1,44 @@
+.verde{
+    color: green;
+}
+.vermelho{
+    color: red;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    grid-gap: 15px;
+    display: grid;
+    grid-template-areas: 
+        "cab cab cab"
+        "sec pri pri"
+        "rod rod rod";
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: auto 1000px auto;
+}
+
+header{
+    grid-area: cab;
+    background-color: rgb(163, 109, 38);
+}
+
+aside{
+    background-color: azure;
+    grid-area: sec;
+    height: ;
+}
+
+main{
+    height: ;
+    background-color: rgb(255, 255, 255);
+    grid-area: pri;
+    
+}
+
+footer{
+    
+    
+    background-color: blueviolet;
+    grid-area: rod;
+}
