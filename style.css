@@ -7,38 +7,91 @@
 
 
 body{
-    background-color: rgb(255, 255, 255);
-    grid-gap: 15px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.349);
+    grid-gap: 5px;
     display: grid;
     grid-template-areas: 
         "cab cab cab"
-        "sec pri pri"
-        "rod rod rod";
-    grid-template-columns: 20% auto auto;
-    grid-template-rows: auto 1000px auto;
+        "pri pri pri"
+        "foo foo foo";
+    
 }
 
 header{
+    position: relative;
+    font-size: 2rem;
+    height: 10rem;
     grid-area: cab;
-    background-color: rgb(163, 109, 38);
+    background-color: rgb(165, 165, 165);
 }
 
-aside{
-    background-color: azure;
-    grid-area: sec;
-    height: ;
+.aur{
+    left: 2rem;
+    position: absolute;
+    top: 2rem;
 }
+
+
+    
+
 
 main{
-    height: ;
+    
     background-color: rgb(255, 255, 255);
     grid-area: pri;
     
 }
 
 footer{
+    text-align: center;
+    padding: 4rem;
+    height: 6rem;
+    background-color: rgb(165, 165, 165);
+    grid-area: foo;
+}
+
+
+.botaoatv{
+    
+    background-color: rgb(172, 146, 146);
+    border-color: bisque;
+    width: 20rem;
+    height: 4rem;
+}
+
+.botaoatv :hover{
     
     
-    background-color: blueviolet;
-    grid-area: rod;
+    width: 18rem;
+    height: 3rem;
+}
+
+
+.btnhome{
+    
+    position: absolute;
+    left: 90rem;
+    top:4rem;
+   
+}
+
+.btnatv{
+    
+    position: absolute;
+    left: 95rem;
+    top:4rem;
+   
+}
+
+.btncal{
+    
+    position: absolute;
+    left: 102rem;
+    top:4rem;
+   
+}
+
+.tudo{
+    text-align: center;
 }
