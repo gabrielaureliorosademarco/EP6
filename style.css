@@ -7,8 +7,10 @@
 
 
 body{
-    padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.349);
+    
+    border-radius: 2px;
+    padding: 3rem;
+    background-color: rgba(177, 177, 177, 0.349);
     grid-gap: 5px;
     display: grid;
     grid-template-areas: 
@@ -19,6 +21,7 @@ body{
 }
 
 header{
+    border-radius: 10px;
     position: relative;
     font-size: 2rem;
     height: 10rem;
@@ -33,26 +36,59 @@ header{
 }
 
 
+.btnini{
     
+    padding: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.btnini :hover{
+    
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
 
 main{
-    
-    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(124, 124, 124);
     grid-area: pri;
     
 }
 
+.mainini{
+    height: 70rem;
+    border-radius: 10px;
+    background-color: rgb(124, 124, 124);
+    grid-area: pri;
+    
+}
+
+.txtini{
+    font-size: 2rem;
+    padding-top: 10rem;
+    text-align: center;
+
+}
+
 footer{
+    border-radius: 10px;
     text-align: center;
     padding: 4rem;
-    height: 6rem;
+    height: 2rem;
     background-color: rgb(165, 165, 165);
     grid-area: foo;
 }
 
 
 .botaoatv{
+    
     
     background-color: rgb(172, 146, 146);
     border-color: bisque;
@@ -76,6 +112,14 @@ footer{
    
 }
 
+.btnhome2{
+    
+    position: absolute;
+    left: 86rem;
+    top:4rem;
+   
+}
+
 .btnatv{
     
     position: absolute;
@@ -95,3 +139,5 @@ footer{
 .tudo{
     text-align: center;
 }
+
+
